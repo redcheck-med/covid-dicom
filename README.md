@@ -1,7 +1,7 @@
 
 ***
 
-REDCHECK + DELTA HUB
+**REDCHECK + DELTA HUB**
 
 ***
 
@@ -114,7 +114,7 @@ julio.c.p.rocha@gmail.com Engenheiro de ML Redcheck.
 
 OU
 
-redcheck@redcheck.com.br
+rafael@redcheck.com.br Médico - CEO RedCheck
 
 
 
@@ -206,4 +206,4 @@ Contact details:
 
 julio.c.p.rocha@gmail.com ML RedCheck engineer.
 OR
-redcheck@redcheck.com.br
+rafael@redcheck.com.br Physician - CEO RedCheck
