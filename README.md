@@ -82,7 +82,7 @@ _Input_shape_: (170,256,3)
 
 _Output_shape_: 2
 
-_Classes_: Normal e Coronavírus Suspeito
+_Classes_: Coronavírus não suspeito e Coronavírus Suspeito
 
 _Loss function_: binary_crossentropy.
 
@@ -192,7 +192,7 @@ After applying Global Average Pooling, we pass the output to a Softmax function 
 The great advantage of this architecture is the possibility of generating the CAM (Classification Activation Map) that makes visible the information learned by the model. This helps us to eliminate the "Black Box" problem and allows us, in addition to performing the classification, to show us the regions of the images that were relevant to the network's decision making. This network, when well trained, can be an appropriate tool mainly for functions that involve analysis of visual patterns in images.
 
 General parameters of the model:
-Below are the metrics used to train this model. Learning rate: 0.01 Activation: Softmax Optimizer: SGD Input_shape: (170,256.3) Output_shape: 2 Classes: Normal and Suspected Coronavirus Loss function: binary_crossentropy.
+Below are the metrics used to train this model. Learning rate: 0.01 Activation: Softmax Optimizer: SGD Input_shape: (170,256.3) Output_shape: 2 Classes: non-suspected Coronavirus and Suspected Coronavirus Loss function: binary_crossentropy.
 
 Training information:
 Awaiting data generation.
