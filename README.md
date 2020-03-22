@@ -34,7 +34,7 @@ Link com orientações para Pesquisadores:
 
 https://github.com/redcheck-med/covid-dicom/wiki/Evidence-Based-Medicine-Considerations-(For-researchers)
 
-
+https://github.com/redcheck-med/covid-dicom/wiki/List-of-Research-Papers
 
 
 ***
@@ -168,7 +168,7 @@ Recommendations link (for researchers):
 
 https://github.com/redcheck-med/covid-dicom/wiki/Evidence-Based-Medicine-Considerations-(For-researchers)
 
-
+https://github.com/redcheck-med/covid-dicom/wiki/List-of-Research-Papers
 
 ***
 
