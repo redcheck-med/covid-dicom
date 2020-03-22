@@ -116,6 +116,8 @@ OU
 
 rafael@redcheck.com.br Médico - CEO RedCheck
 
+Os Termos de Uso de Serviços da Plataforma encontram-se disponíveis na tela de cadastro em:
+https://covid.redcheck.com.br/account/cadastrar
 
 
 
@@ -207,3 +209,6 @@ Contact details:
 julio.c.p.rocha@gmail.com ML RedCheck engineer.
 OR
 rafael@redcheck.com.br Physician - CEO RedCheck
+
+The Platform Service Terms of Use are available on the registration screen at:
+https://covid.redcheck.com.br/account/cadastrar
