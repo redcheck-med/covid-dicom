@@ -30,6 +30,10 @@ _Cientistas e Grupos de Inteligência Artificial e Visão Computacional_ – Dev
 
 _Cientistas e Grupos de Medicina Baseada em Evidências_ – A ferramenta é aberta para médicos enviarem seus exames e checarem o desempenho de classificação das Inteligências Artificiais (IAs), além do mais, o próprio modelo das IAs será disponibilizado nesta página para que possa ser implementado e testado em outras plataformas. É de **fundamental importância a validação externa dos resultados por grupos de pesquisa**, ficamos a disposição para quaisquer esclarecimentos.
 
+Link com orientações para Pesquisadores:
+
+https://github.com/redcheck-med/covid-dicom/wiki/Evidence-Based-Medicine-Considerations-(For-researchers)
+
 
 
 
@@ -159,6 +163,11 @@ Doctors and Clinics - All duly accredited doctors and clinics can participate by
 Patients - As the system has an embedded system for sending reports by e-mail or through Token, they can use the platform to monitor the descriptions of their exams, if necessary, without any present or future cost.
 Scientists and Artificial Intelligence and Computer Vision Groups - Due to the sensitive characteristics and principles that govern the safeguarding of patient data, we will not be able to make the database available to the public, however, suggested models can be sent for training in the dataset, being the results obtained promptly published on this page and sent to the group, along with performance ranking.
 Scientists and Evidence-Based Medicine Groups - The tools are open for doctors to send their exams and check the Artificial Intelligence (AI) classification performance, in addition, the AI model itself will be made available on this page so that it can be implemented and tested on other platforms. It is of fundamental importance to the external validation of the results by research groups; we are available for any clarifications.
+
+Recommendations link (for researchers):
+
+https://github.com/redcheck-med/covid-dicom/wiki/Evidence-Based-Medicine-Considerations-(For-researchers)
+
 
 
 ***
