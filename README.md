@@ -97,6 +97,12 @@ _Aguardando geração dos dados._
 
 O modelo acima é uma proposta inicial para desenvolver uma solução que auxilie os profissionais da saúde a fazer a detecção de padrões em exames de imagem da infecção pelo Coronavírus de forma rápida e fácil. Estamos disponíveis para incluir novas implementações e ideias para melhorar a performance do modelo.
 
+
+***
+**Vantagens do Projeto:**
+***
+**Por serem disponibilizados os Modelos .h5 para testes e uso em outras plataformas e ferramentas, além do código relacionado ao uso de DICOM em plataforma web, o projeto pode ser melhorado e auditado por quaisquer interessados a qualquer momento. Os dados dos pacientes são resguardados e não são acessíveis a público. Os dados tem credibilidade pois são enviados por médicos com registro e têm identificação por CPF do paciente (pacientes reais e médicos reais). Os dados são de origem da linha de cuidado onde pretende-se aplicar a ferramenta. Pela acessibilidade da plataforma e dos modelos de IA, as mesmas podem ter validação externa a qualquer momento por qualquer grupo de pesquisa. Por ser colaborativo, qualquer grupo pode otimizar a IA e nos encaminhar para melhorias na ferramenta. Por fim, como são dados com identificação de origem geográfica, podemos acompanhar as características regionais da pandemia e o comportamento da ferramenta em cada uma dessas regiões.**
+
 ***
 
 **Dados para contato:**
@@ -174,14 +180,7 @@ After applying Global Average Pooling, we pass the output to a Softmax function 
 The great advantage of this architecture is the possibility of generating the CAM (Classification Activation Map) that makes visible the information learned by the model. This helps us to eliminate the "Black Box" problem and allows us, in addition to performing the classification, to show us the regions of the images that were relevant to the network's decision making. This network, when well trained, can be an appropriate tool mainly for functions that involve analysis of visual patterns in images.
 
 General parameters of the model:
-Below are the metrics used to train this model.
-Learning rate: 0.01
-Activation: Softmax
-Optimizer: SGD
-Input_shape: (170,256.3)
-Output_shape: 2
-Classes: Normal and Suspected Coronavirus
-Loss function: binary_crossentropy.
+Below are the metrics used to train this model. Learning rate: 0.01 Activation: Softmax Optimizer: SGD Input_shape: (170,256.3) Output_shape: 2 Classes: Normal and Suspected Coronavirus Loss function: binary_crossentropy.
 
 Training information:
 Awaiting data generation.
@@ -191,6 +190,11 @@ Awaiting data generation.
 
 Other considerations:
 The model above is an initial proposal to develop a solution that helps healthcare professionals to detect patterns in imaging tests for Coronavirus infection quickly and easily. We are available to include new implementations and ideas to improve the model's performance.
+
+***
+** Project Advantages: **
+***
+**Because the .h5 Models are available for testing and use on other platforms and tools, in addition to the code related to the use of DICOM on the web platform, the project can be improved and audited by any interested party at any time. Patient data is protected and is not accessible to the public. The data is credible because they are sent by registered doctors and have the patient's CPF identification (real patients and real doctors). The data comes from the line of care where the tool is intended to be applied. Due to the accessibility of the platform and the AI ​​models, they can have external validation at any time by any research group. For being collaborative, any group can optimize AI and direct us to improvements in the tool. Finally, as they are data with identification of geographical origin, we can follow the regional characteristics of the pandemic and the behavior of the tool in each of these regions.**
 
 ***
 
