@@ -4,7 +4,7 @@
 pelo modelo de machine learning da classe de cada valor na lista além da probabilidade
 predita para a classe definida pelo modelo, retorna a MATRIZ DE CONFUSÃO, as MÉTRICAS derivadas da matriz,
 além de Curva ROC/Precision-Recall e o ponto de corte ótimo do exame com base no Índice de Youden, e os
-valores de intervalo de confiança de cada métrica baseados em técnica de Bootstrap"""
+valores de intervalo de confiança de cada métrica baseados em Escore de Wilson confirmado pela técnica de Bootstrap"""
 
 import pybootstrap as pb
 from math import sqrt
