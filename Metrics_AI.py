@@ -7,8 +7,9 @@ além de Curva ROC/Precision-Recall e o ponto de corte ótimo do exame com base 
 valores de intervalo de confiança de cada métrica baseados em técnica de Bootstrap"""
 
 import pybootstrap as pb
-import numpy
 from math import sqrt
+import matplotlib.pyplot as plt
+import numpy as np
 
 # INPUT
 goldstandard = [0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1]  # List of class defined by the goldstandard
@@ -52,7 +53,7 @@ def confidence(lista, stat):
 
 matchlist = list()
 
-
+#Confusion Matrix
 def confusionlist(prediction, goldstandard):
     for i, p in enumerate(prediction):
         if disease == p:
@@ -86,6 +87,7 @@ def confusionmatrix(conflist):
 
 
 # Metrics
+  #Sensivity
 def sensv(lista):
     TP = lista.count(0)
     FN = lista.count(3)
@@ -95,7 +97,7 @@ def sensv(lista):
         sensivity = 0
     return sensivity
 
-
+  #Specificity
 def spec(lista):
     TN = lista.count(2)
     FP = lista.count(1)
@@ -105,7 +107,7 @@ def spec(lista):
         specificity = 0
     return specificity
 
-
+  #Positive Predictive Value
 def positivepred(lista):
     TP = lista.count(0)
     FP = lista.count(1)
@@ -115,7 +117,7 @@ def positivepred(lista):
         PPV = 0
     return PPV
 
-
+  #Negative Predictive Value
 def negativepred(lista):
     TN = lista.count(2)
     FN = lista.count(3)
@@ -125,7 +127,7 @@ def negativepred(lista):
         PNV = 0
     return PNV
 
-
+  #Accuracy
 def acur(lista):
     TN = lista.count(2)
     FN = lista.count(3)
@@ -134,7 +136,7 @@ def acur(lista):
     Accuracy = 100 * (TP + TN) / (TP + TN + FP + FN)
     return Accuracy
 
-
+  #Likelihood Ratio +
 def LRP(lista):
     sensivity = sensv(lista)
     specificity = spec(lista)
@@ -144,7 +146,7 @@ def LRP(lista):
         LRpos = 0
     return LRpos
 
-
+  #Likelihood Ratio -
 def LRN(lista):
     sensivity = sensv(lista)
     specificity = spec(lista)
@@ -154,19 +156,19 @@ def LRN(lista):
         LRneg = 0
     return LRneg
 
-
+  #Type 1 error
 def type1(lista):
     specificity = spec(lista)
     type1error = 100 - specificity
     return type1error
 
-
+  #Type 2 Error
 def type2(lista):
     sensivity = sensv(lista)
     type2error = 100 - sensivity
     return type2error
 
-
+  #General function
 def evaluate(function, lista, namefunction='', printwilson=True, printbootstrap=False):
     if printbootstrap == True:
         conf = confidence(lista, function)
@@ -252,8 +254,7 @@ for cutpoint in range(0, 21, 1):
 
     del ci[:]
 
-import matplotlib.pyplot as plt
-import numpy as np
+#ROC Curve/Precision-Recall
 
 false_positive_rate2 = [0.01*x for x in false_positive_rate]
 true_positive_rate2 = [0.01*x for x in true_positive_rate]
