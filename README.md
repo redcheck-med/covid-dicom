@@ -27,6 +27,9 @@ _Médicos e Clínicas_ – Todos médicos e clínicas devidamente credenciados p
 https://github.com/redcheck-med/covid-dicom/wiki/Critical-use-of-Artificial-Intelligence-tools-(for-doctors)
 
 _Pacientes_ – Como o sistema possui embarcado sistema de envio de laudos por e-mail ou através de Token, os mesmos poderão utilizar da plataforma para acompanhar os laudos de seus exames, caso necessário, sem qualquer custo presente ou futuro.
+*Via de regra as imagens são privadas para o médico que as enviou, em caso de interesse de deixa-las públicas, favor preencher este TCLE e assinalar este interesse no campo observações.
+
+https://github.com/redcheck-med/covid-dicom/blob/master/TCLE_RedCheck.docx
 
 _Cientistas e Grupos de Inteligência Artificial e Visão Computacional_ – Devido as características sensíveis e princípios que regem a salvaguarda de dados de pacientes, não poderemos disponibilizar a público o banco de dados, no entanto, **podem ser enviados modelos sugeridos para treino no dataset**, sendo os resultados obtidos prontamente publicados nesta página e enviados para o grupo, juntamente com ranking de desempenho.
 
@@ -166,6 +169,10 @@ Doctors and Clinics - All duly accredited doctors and clinics can participate by
 https://github.com/redcheck-med/covid-dicom/wiki/Critical-use-of-Artificial-Intelligence-tools-(for-doctors)
 
 Patients - As the system has an embedded system for sending reports by e-mail or through Token, they can use the platform to monitor the descriptions of their exams, if necessary, without any present or future cost.
+* As a rule, images are private to the doctor who sent them, in case you are interested in making them public, please fill out this document and indicate this interest in the observations field.
+
+https://github.com/redcheck-med/covid-dicom/blob/master/TCLE_RedCheck.docx
+
 Scientists and Artificial Intelligence and Computer Vision Groups - Due to the sensitive characteristics and principles that govern the safeguarding of patient data, we will not be able to make the database available to the public, however, suggested models can be sent for training in the dataset, being the results obtained promptly published on this page and sent to the group, along with performance ranking.
 Scientists and Evidence-Based Medicine Groups - The tools are open for doctors to send their exams and check the Artificial Intelligence (AI) classification performance, in addition, the AI model itself will be made available on this page so that it can be implemented and tested on other platforms. It is of fundamental importance to the external validation of the results by research groups; we are available for any clarifications.
 
